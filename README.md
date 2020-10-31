@@ -5,7 +5,7 @@ Browser : Firefox/Chrome
 Framework Used : TestNG Maven
 Technology Used : Jenkins, Selenium_Grid
 
-***********************************************************Run this project*********************************************************************
+***********************************************************Run this Project*********************************************************************
 
 1. Open cmd and go to folder where selenium-server-standlone-jar is present
 2. Make sure all webdrivers and jar are at same location
@@ -24,7 +24,7 @@ This will run your project
 
 1. On Successful Build HTML Report will be created at folder HTMLReports
 
-***********************************************************About the java files*****************************************************************
+***********************************************************About the Java files***************************************************************
 
 1. BaseUi.java
 	File where all global methods are declared
