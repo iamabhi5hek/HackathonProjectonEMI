@@ -24,7 +24,7 @@ This will run your project
 
 1. On Successful Build HTML Report will be created at folder HTMLReports
 
-***********************************************************About the Java files***************************************************************
+***********************************************************About the Java files***********************************************************
 
 1. BaseUi.java
 	File where all global methods are declared
