@@ -14,6 +14,7 @@ import Pages.CarLoanPage;
 import Pages.HomeLoanPage;
 import Pages.LoanCalculatorPage;
 import Pages.MainPage;
+//******************Scenario1*************************
 
 public class Scenario1 extends BaseUi {
 
