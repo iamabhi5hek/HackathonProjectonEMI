@@ -139,7 +139,8 @@ public class BaseUi {
 
 		fos.close();
 
-		// print message
+		
+
 		System.err.println("");
 		System.err.println("************************************************************");
 		System.err.println("Data has been stored");
