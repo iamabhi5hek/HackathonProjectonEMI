@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 31 10:56:20 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>85 seconds (85184 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 0.0, 10.5, Y, 20.0, 0.0</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 3000000.0, 10.5, Y, 20.0, 71,88,335</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1000000.0, 4.0, Y, 10.0, 12,14,942</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1000000.0, 0.0, Y, 10.0, 12,72,786</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1200000.0, 15.0, M, 0.0, 12,99,720</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1300000.0, 14.0, M, 720.0, 1,09,22,579</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1300000.0, 12.0, Y, 1.0, 13,86,041</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario1.VerifycarloanData()'><b>VerifycarloanData</b><br>Test class: TestCases.Scenario1<br>Parameters: 1250000.0, 12.0, Y, 60.0, 90,06,969</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario1@7193666c</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ? 2,500</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: -2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ? 6,00,005</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ? 8,37,482</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ? 8,39,966</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ? 1,92,089</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ? 12,52,253</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ? 8,54,358</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ? 8,97,358</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ? 9,01,358</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario2.VerifyhomeloanemiData()'><b>VerifyhomeloanemiData</b><br>Test class: TestCases.Scenario2<br>Parameters: 100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ? 2,62,838</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Scenario2@20deea7f</td></tr>
+<tr>
+<td title='TestCases.Scenario3.VerifyloancalculatorData()'><b>VerifyloancalculatorData</b><br>Test class: TestCases.Scenario3<br>Parameters: 1000000.0, 9.5, 6.0, 0.0, 13,15,778</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario3@3835c46</td></tr>
+<tr>
+<td title='TestCases.Scenario3.VerifyloancalculatorData()'><b>VerifyloancalculatorData</b><br>Test class: TestCases.Scenario3<br>Parameters: 1000000.0, 9.5, 6.0, -2.0, 13,15,780</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario3@3835c46</td></tr>
+<tr>
+<td title='TestCases.Scenario3.VerifyloancalculatorData()'><b>VerifyloancalculatorData</b><br>Test class: TestCases.Scenario3<br>Parameters: -200000.0, 9.5, 6.0, 0.0, 2,63,156</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Scenario3@3835c46</td></tr>
+</table><p>
+</body>
+</html>

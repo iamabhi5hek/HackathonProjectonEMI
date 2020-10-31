@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\choud\eclipse-workspace\LoanProvify\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1300000.0, 14.0, M, 720.0, 1,09,22,579)">VerifycarloanData(1300000.0, 14.0, M, 720.0, 1,09,22,579)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1200000.0, 15.0, M, 0.0, 12,99,720)">VerifycarloanData(1200000.0, 15.0, M, 0.0, 12,99,720)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(0.0, 10.5, Y, 20.0, 0.0)">VerifycarloanData(0.0, 10.5, Y, 20.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1300000.0, 12.0, Y, 1.0, 13,86,041)">VerifycarloanData(1300000.0, 12.0, Y, 1.0, 13,86,041)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1000000.0, 0.0, Y, 10.0, 12,72,786)">VerifycarloanData(1000000.0, 0.0, Y, 10.0, 12,72,786)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1250000.0, 12.0, Y, 60.0, 90,06,969)">VerifycarloanData(1250000.0, 12.0, Y, 60.0, 90,06,969)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(1000000.0, 4.0, Y, 10.0, 12,14,942)">VerifycarloanData(1000000.0, 4.0, Y, 10.0, 12,14,942)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario1" hash-for-method="VerifycarloanData(3000000.0, 10.5, Y, 20.0, 71,88,335)">VerifycarloanData(3000000.0, 10.5, Y, 20.0, 71,88,335)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966)">VerifyhomeloanemiData(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482)">VerifyhomeloanemiData(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500)">VerifyhomeloanemiData(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838)">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario2" hash-for-method="VerifyhomeloanemiData(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005)">VerifyhomeloanemiData(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario3" hash-for-method="VerifyloancalculatorData(1000000.0, 9.5, 6.0, -2.0, 13,15,780)">VerifyloancalculatorData(1000000.0, 9.5, 6.0, -2.0, 13,15,780)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario3" hash-for-method="VerifyloancalculatorData(-200000.0, 9.5, 6.0, 0.0, 2,63,156)">VerifyloancalculatorData(-200000.0, 9.5, 6.0, 0.0, 2,63,156)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Scenario3" hash-for-method="VerifyloancalculatorData(1000000.0, 9.5, 6.0, 0.0, 13,15,778)">VerifyloancalculatorData(1000000.0, 9.5, 6.0, 0.0, 13,15,778)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Scenario3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyloancalculatorData(1000000.0, 9.5, 6.0, -2.0, 13,15,780)">
+                  </a> <!-- VerifyloancalculatorData(1000000.0, 9.5, 6.0, -2.0, 13,15,780) -->
+                  <span class="method-name">VerifyloancalculatorData</span>
+                  <span class="parameters">(1000000.0, 9.5, 6.0, -2.0, 13,15,780)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyloancalculatorData(-200000.0, 9.5, 6.0, 0.0, 2,63,156)">
+                  </a> <!-- VerifyloancalculatorData(-200000.0, 9.5, 6.0, 0.0, 2,63,156) -->
+                  <span class="method-name">VerifyloancalculatorData</span>
+                  <span class="parameters">(-200000.0, 9.5, 6.0, 0.0, 2,63,156)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyloancalculatorData(1000000.0, 9.5, 6.0, 0.0, 13,15,778)">
+                  </a> <!-- VerifyloancalculatorData(1000000.0, 9.5, 6.0, 0.0, 13,15,778) -->
+                  <span class="method-name">VerifyloancalculatorData</span>
+                  <span class="parameters">(1000000.0, 9.5, 6.0, 0.0, 13,15,778)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500)">
+                  </a> <!-- VerifyhomeloanemiData(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838)">
+                  </a> <!-- VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyhomeloanemiData(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005)">
+                  </a> <!-- VerifyhomeloanemiData(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005) -->
+                  <span class="method-name">VerifyhomeloanemiData</span>
+                  <span class="parameters">(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1300000.0, 14.0, M, 720.0, 1,09,22,579)">
+                  </a> <!-- VerifycarloanData(1300000.0, 14.0, M, 720.0, 1,09,22,579) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1300000.0, 14.0, M, 720.0, 1,09,22,579)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1200000.0, 15.0, M, 0.0, 12,99,720)">
+                  </a> <!-- VerifycarloanData(1200000.0, 15.0, M, 0.0, 12,99,720) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1200000.0, 15.0, M, 0.0, 12,99,720)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(0.0, 10.5, Y, 20.0, 0.0)">
+                  </a> <!-- VerifycarloanData(0.0, 10.5, Y, 20.0, 0.0) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(0.0, 10.5, Y, 20.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1300000.0, 12.0, Y, 1.0, 13,86,041)">
+                  </a> <!-- VerifycarloanData(1300000.0, 12.0, Y, 1.0, 13,86,041) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1300000.0, 12.0, Y, 1.0, 13,86,041)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1000000.0, 0.0, Y, 10.0, 12,72,786)">
+                  </a> <!-- VerifycarloanData(1000000.0, 0.0, Y, 10.0, 12,72,786) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1000000.0, 0.0, Y, 10.0, 12,72,786)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1250000.0, 12.0, Y, 60.0, 90,06,969)">
+                  </a> <!-- VerifycarloanData(1250000.0, 12.0, Y, 60.0, 90,06,969) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1250000.0, 12.0, Y, 60.0, 90,06,969)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(1000000.0, 4.0, Y, 10.0, 12,14,942)">
+                  </a> <!-- VerifycarloanData(1000000.0, 4.0, Y, 10.0, 12,14,942) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(1000000.0, 4.0, Y, 10.0, 12,14,942)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycarloanData(3000000.0, 10.5, Y, 20.0, 71,88,335)">
+                  </a> <!-- VerifycarloanData(3000000.0, 10.5, Y, 20.0, 71,88,335) -->
+                  <span class="method-name">VerifycarloanData</span>
+                  <span class="parameters">(3000000.0, 10.5, Y, 20.0, 71,88,335)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\choud\eclipse-workspace\LoanProvify\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.Scenario1&quot;/&gt;
+      &lt;class name=&quot;TestCases.Scenario2&quot;/&gt;
+      &lt;class name=&quot;TestCases.Scenario3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyhomeloanemiData')
+data.setCell(0, 2, 'TestCases.Scenario2')
+data.setCell(0, 3, 2426);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyhomeloanemiData')
+data.setCell(1, 2, 'TestCases.Scenario2')
+data.setCell(1, 3, 2256);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyhomeloanemiData')
+data.setCell(2, 2, 'TestCases.Scenario2')
+data.setCell(2, 3, 2167);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyhomeloanemiData')
+data.setCell(3, 2, 'TestCases.Scenario2')
+data.setCell(3, 3, 2148);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyhomeloanemiData')
+data.setCell(4, 2, 'TestCases.Scenario2')
+data.setCell(4, 3, 2135);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyhomeloanemiData')
+data.setCell(5, 2, 'TestCases.Scenario2')
+data.setCell(5, 3, 2118);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyhomeloanemiData')
+data.setCell(6, 2, 'TestCases.Scenario2')
+data.setCell(6, 3, 2080);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyhomeloanemiData')
+data.setCell(7, 2, 'TestCases.Scenario2')
+data.setCell(7, 3, 2049);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyhomeloanemiData')
+data.setCell(8, 2, 'TestCases.Scenario2')
+data.setCell(8, 3, 2011);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyhomeloanemiData')
+data.setCell(9, 2, 'TestCases.Scenario2')
+data.setCell(9, 3, 1979);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifycarloanData')
+data.setCell(10, 2, 'TestCases.Scenario1')
+data.setCell(10, 3, 1864);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifycarloanData')
+data.setCell(11, 2, 'TestCases.Scenario1')
+data.setCell(11, 3, 1631);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifycarloanData')
+data.setCell(12, 2, 'TestCases.Scenario1')
+data.setCell(12, 3, 1531);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyloancalculatorData')
+data.setCell(13, 2, 'TestCases.Scenario3')
+data.setCell(13, 3, 1505);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifycarloanData')
+data.setCell(14, 2, 'TestCases.Scenario1')
+data.setCell(14, 3, 1409);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifycarloanData')
+data.setCell(15, 2, 'TestCases.Scenario1')
+data.setCell(15, 3, 1215);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyloancalculatorData')
+data.setCell(16, 2, 'TestCases.Scenario3')
+data.setCell(16, 3, 1163);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyloancalculatorData')
+data.setCell(17, 2, 'TestCases.Scenario3')
+data.setCell(17, 3, 1150);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifycarloanData')
+data.setCell(18, 2, 'TestCases.Scenario1')
+data.setCell(18, 3, 1147);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifycarloanData')
+data.setCell(19, 2, 'TestCases.Scenario1')
+data.setCell(19, 3, 1077);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifycarloanData')
+data.setCell(20, 2, 'TestCases.Scenario1')
+data.setCell(20, 3, 1068);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.Scenario3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flushReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.Scenario2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flushReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">open</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">open</span>
+                <span class="method-start">10232 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario3</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">open</span>
+                <span class="method-start">19845 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(0.0, 10.5, Y, 20.0, 0.0)</span>
+                <span class="method-start">28971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(3000000.0, 10.5, Y, 20.0, 71,88,335)</span>
+                <span class="method-start">30503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1000000.0, 4.0, Y, 10.0, 12,14,942)</span>
+                <span class="method-start">32367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1000000.0, 0.0, Y, 10.0, 12,72,786)</span>
+                <span class="method-start">33776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1200000.0, 15.0, M, 0.0, 12,99,720)</span>
+                <span class="method-start">34991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1300000.0, 14.0, M, 720.0, 1,09,22,579)</span>
+                <span class="method-start">36069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1300000.0, 12.0, Y, 1.0, 13,86,041)</span>
+                <span class="method-start">37137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycarloanData(1250000.0, 12.0, Y, 60.0, 90,06,969)</span>
+                <span class="method-start">38768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(0.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 2,500)</span>
+                <span class="method-start">39961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(-2.0, 0.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 6,00,005)</span>
+                <span class="method-start">42387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, -2.0, 0.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,37,482)</span>
+                <span class="method-start">44398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, -2.0, 9.5, 20.0, 10.0, 0.25, 0.05, 2500.0, ₹ 8,39,966)</span>
+                <span class="method-start">46654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, -2.0, 10.0, 0.25, 0.05, 2500.0, ₹ 1,92,089)</span>
+                <span class="method-start">48790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 0.0, 10.0, 0.25, 0.05, 2500.0, ₹ 12,52,253)</span>
+                <span class="method-start">50870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, -2.0, 0.25, 0.05, 2500.0, ₹ 8,54,358)</span>
+                <span class="method-start">52849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, -2.0, 0.05, 2500.0, ₹ 8,97,358)</span>
+                <span class="method-start">54967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, -2.0, 2500.0, ₹ 9,01,358)</span>
+                <span class="method-start">57135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyhomeloanemiData(100000.0, 0.0, 10000.0, 9.5, 20.0, 10.0, 0.25, 0.05, -2.0, ₹ 2,62,838)</span>
+                <span class="method-start">59184 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyloancalculatorData(1000000.0, 9.5, 6.0, 0.0, 13,15,778)</span>
+                <span class="method-start">61363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyloancalculatorData(1000000.0, 9.5, 6.0, -2.0, 13,15,780)</span>
+                <span class="method-start">62868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyloancalculatorData(-200000.0, 9.5, 6.0, 0.0, 2,63,156)</span>
+                <span class="method-start">64032 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">65182 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario2</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">78574 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario3</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">83750 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">85203 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="23" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85184" started-at="2020-10-31T05:26:20Z" finished-at="2020-10-31T05:27:45Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="85184" started-at="2020-10-31T05:26:20Z" finished-at="2020-10-31T05:27:45Z">
+      <class name="TestCases.Scenario3">
+        <test-method status="PASS" signature="VerifyloancalculatorData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario3@3835c46]" name="VerifyloancalculatorData" duration-ms="1505" started-at="2020-10-31T05:27:21Z" data-provider="loancalculator" finished-at="2020-10-31T05:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[13,15,778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloancalculatorData -->
+        <test-method status="PASS" signature="VerifyloancalculatorData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario3@3835c46]" name="VerifyloancalculatorData" duration-ms="1163" started-at="2020-10-31T05:27:22Z" data-provider="loancalculator" finished-at="2020-10-31T05:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[13,15,780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloancalculatorData -->
+        <test-method status="PASS" signature="VerifyloancalculatorData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario3@3835c46]" name="VerifyloancalculatorData" duration-ms="1150" started-at="2020-10-31T05:27:24Z" data-provider="loancalculator" finished-at="2020-10-31T05:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2,63,156]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloancalculatorData -->
+      </class> <!-- TestCases.Scenario3 -->
+      <class name="TestCases.Scenario2">
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2426" started-at="2020-10-31T05:27:00Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 2,500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2011" started-at="2020-10-31T05:27:02Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 6,00,005]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2256" started-at="2020-10-31T05:27:04Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 8,37,482]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2135" started-at="2020-10-31T05:27:06Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 8,39,966]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2080" started-at="2020-10-31T05:27:08Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 1,92,089]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="1979" started-at="2020-10-31T05:27:10Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 12,52,253]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2118" started-at="2020-10-31T05:27:12Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 8,54,358]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2167" started-at="2020-10-31T05:27:15Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 8,97,358]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2049" started-at="2020-10-31T05:27:17Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2500.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 9,01,358]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+        <test-method status="PASS" signature="VerifyhomeloanemiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario2@20deea7f]" name="VerifyhomeloanemiData" duration-ms="2148" started-at="2020-10-31T05:27:19Z" data-provider="homeloanemi" finished-at="2020-10-31T05:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[₹ 2,62,838]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomeloanemiData -->
+      </class> <!-- TestCases.Scenario2 -->
+      <class name="TestCases.Scenario1">
+        <test-method status="PASS" signature="open()[pri:0, instance:TestCases.Scenario1@7193666c]" name="open" is-config="true" duration-ms="10232" started-at="2020-10-31T05:26:20Z" finished-at="2020-10-31T05:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="open()[pri:0, instance:TestCases.Scenario2@20deea7f]" name="open" is-config="true" duration-ms="9613" started-at="2020-10-31T05:26:30Z" finished-at="2020-10-31T05:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="open()[pri:0, instance:TestCases.Scenario3@3835c46]" name="open" is-config="true" duration-ms="8400" started-at="2020-10-31T05:26:39Z" finished-at="2020-10-31T05:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1531" started-at="2020-10-31T05:26:49Z" data-provider="carloan" finished-at="2020-10-31T05:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1864" started-at="2020-10-31T05:26:50Z" data-provider="carloan" finished-at="2020-10-31T05:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[71,88,335]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1409" started-at="2020-10-31T05:26:52Z" data-provider="carloan" finished-at="2020-10-31T05:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12,14,942]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1215" started-at="2020-10-31T05:26:53Z" data-provider="carloan" finished-at="2020-10-31T05:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12,72,786]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1077" started-at="2020-10-31T05:26:55Z" data-provider="carloan" finished-at="2020-10-31T05:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1200000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12,99,720]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1068" started-at="2020-10-31T05:26:56Z" data-provider="carloan" finished-at="2020-10-31T05:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[720.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,09,22,579]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1631" started-at="2020-10-31T05:26:57Z" data-provider="carloan" finished-at="2020-10-31T05:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1300000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[13,86,041]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="VerifycarloanData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.Scenario1@7193666c]" name="VerifycarloanData" duration-ms="1147" started-at="2020-10-31T05:26:58Z" data-provider="carloan" finished-at="2020-10-31T05:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1250000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90,06,969]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycarloanData -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.Scenario1@7193666c]" name="close" is-config="true" duration-ms="13392" started-at="2020-10-31T05:27:25Z" finished-at="2020-10-31T05:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.Scenario2@20deea7f]" name="close" is-config="true" duration-ms="5176" started-at="2020-10-31T05:27:38Z" finished-at="2020-10-31T05:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.Scenario3@3835c46]" name="close" is-config="true" duration-ms="1433" started-at="2020-10-31T05:27:43Z" finished-at="2020-10-31T05:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:TestCases.Scenario1@7193666c]" name="flushReports" is-config="true" duration-ms="406" started-at="2020-10-31T05:27:45Z" finished-at="2020-10-31T05:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCases.Scenario1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
