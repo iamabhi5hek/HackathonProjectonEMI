@@ -1,11 +1,11 @@
-***********************************************************Details about thisproject************************************************************
+***********************************************************Details about this project*********************************************************
 
 Website Used : EMICalculator.net
 Browser : Firefox/Chrome
 Framework Used : TestNG Maven
 Technology Used : Jenkins, Selenium_Grid
 
-***********************************************************Run this  project**********************************************************************
+***********************************************************Run this project*********************************************************************
 
 1. Open cmd and go to folder where selenium-server-standlone-jar is present
 2. Make sure all webdrivers and jar are at same location
