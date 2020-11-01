@@ -315,7 +315,7 @@ public class BaseUi {
 	@AfterSuite
 	public void flushReports() {
 		report.flush();
-		driver.close();
+		driver.close(); // Browser closes
 	}
 
 }
